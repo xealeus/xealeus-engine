@@ -1,3 +1,9 @@
+
+
+https://github.com/user-attachments/assets/2d65bbf9-a042-40c3-bfa1-f24332817600
+
+
+
 # Xealeus State-Machine Engine (`xealeus-engine`)
 
 A deterministic, open-source software harness and state-machine compiler for the Voynich Manuscript.
