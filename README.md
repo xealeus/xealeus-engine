@@ -51,7 +51,17 @@ xealeus-engine/
 
 To execute the verification suite, you need the cleaned Interlinear Voynich Transliteration File Format (IVTFF) corpus compiled by Jorge Stolfi and René Zandbergen based on **Takeshi Takahashi's transcription** (`LSI_ivtff_0d.txt`).
 
-Place `LSI_ivtff_0d.txt` into the root directory of this repository before running the scripts.
+### Why `LSI_ivtff_0d.txt` is Required
+Historical Voynich transcriptions often contain interlinear data leakage across parallel scribal readings (e.g., `;C>`, `;F>`, `;U>`). The Xealeus test suite enforces strict **Takahashi `;H>` record isolation** to ensure clean, un-duplicated single-stream token processing.
+
+### Where to Obtain the Corpus
+Due to transcription archive copyright and attribution guidelines, the raw corpus file is not re-hosted inside this repository. You can obtain the official file directly from trusted online Voynich archives:
+
+* **Primary Archive**: [Voynich Interlinear Transliteration Archives (Stolfi / Zandbergen)](https://www.voynich.nu/transcr.html)
+* **Direct Archive Directory**: Download `LSI_ivtff_0d.txt` (or the equivalent Takahashi IVTFF corpus) from the [Jorge Stolfi Voynich Text Directory](http://www.ic.unicamp.br/~stolfi/voynich/).
+* **Search Query**: Search for `LSI_ivtff_0d.txt` or `Takeshi Takahashi Voynich IVTFF transcription` to find primary archive mirrors.
+
+Place `LSI_ivtff_0d.txt` directly into the root directory of this repository before executing the test scripts.
 
 ---
 
@@ -145,6 +155,9 @@ In addition to the formal statistical verification suite, the repository include
 
 ---
 
+## ⚖️ License
+
+Distributed under the MIT License. See `LICENSE` for details.
 ## ⚖️ License
 
 Distributed under the MIT License. See `LICENSE` for details.
