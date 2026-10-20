@@ -158,6 +158,3 @@ In addition to the formal statistical verification suite, the repository include
 ## ⚖️ License
 
 Distributed under the MIT License. See `LICENSE` for details.
-## ⚖️ License
-
-Distributed under the MIT License. See `LICENSE` for details.
