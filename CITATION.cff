@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - name: "Xealeus"
+title: "Xealeus State-Machine Engine (xealeus-engine)"
+version: "1.0.0"
+date-released: 2025-10-20
+url: "https://github.com/xealeus/xealeus-engine"
+repository-code: "https://github.com/xealeus/xealeus-engine"
+license: MIT
+abstract: "A deterministic, open-source software harness and state-machine compiler designed to reverse-engineer the text of the 15th-century Voynich Manuscript as a procedural state-machine generative grammar."
+keywords:
+  - "voynich-manuscript"
+  - "procedural-generation"
+  - "state-machine"
+  - "markov-chain"
+  - "data-science"
+  - "sonification"
+  - "open-source"
